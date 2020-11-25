@@ -1,15 +1,25 @@
 {
-  "name": "my-bot",
-  "version": "1.0.0",
+
+  "name": "Example",
+
+  "description": "Example",
+
+  "version": "0.0.0",
+
   "main": "index.js",
+
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+
+    "start": "node bot.js"
+
   },
+
   "dependencies": {
-    "discord.js": "^11.4.2"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
   }
+
 }
